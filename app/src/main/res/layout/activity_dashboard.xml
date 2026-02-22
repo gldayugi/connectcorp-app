@@ -1,0 +1,42 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#5DADE2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Main Dashboard"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="Search for people or companies..."
+        android:background="@android:drawable/edit_text"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/peopleSearchBtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#1976D2"
+        android:text="People Search"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/companySearchBtn"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#1ABC9C"
+        android:text="Company Search"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
